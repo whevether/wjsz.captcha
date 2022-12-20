@@ -1,0 +1,12 @@
+/Users/mowenfeng/Downloads/lazy-captcha-master/Wjsz.Captcha/bin/Debug/net7.0/Wjsz.Captcha.deps.json
+/Users/mowenfeng/Downloads/lazy-captcha-master/Wjsz.Captcha/bin/Debug/net7.0/Wjsz.Captcha.dll
+/Users/mowenfeng/Downloads/lazy-captcha-master/Wjsz.Captcha/bin/Debug/net7.0/Wjsz.Captcha.pdb
+/Users/mowenfeng/Downloads/lazy-captcha-master/Wjsz.Captcha/obj/Debug/net7.0/Wjsz.Captcha.csproj.AssemblyReference.cache
+/Users/mowenfeng/Downloads/lazy-captcha-master/Wjsz.Captcha/obj/Debug/net7.0/Wjsz.Captcha.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mowenfeng/Downloads/lazy-captcha-master/Wjsz.Captcha/obj/Debug/net7.0/Wjsz.Captcha.AssemblyInfoInputs.cache
+/Users/mowenfeng/Downloads/lazy-captcha-master/Wjsz.Captcha/obj/Debug/net7.0/Wjsz.Captcha.AssemblyInfo.cs
+/Users/mowenfeng/Downloads/lazy-captcha-master/Wjsz.Captcha/obj/Debug/net7.0/Wjsz.Captcha.csproj.CoreCompileInputs.cache
+/Users/mowenfeng/Downloads/lazy-captcha-master/Wjsz.Captcha/obj/Debug/net7.0/Wjsz.Captcha.dll
+/Users/mowenfeng/Downloads/lazy-captcha-master/Wjsz.Captcha/obj/Debug/net7.0/refint/Wjsz.Captcha.dll
+/Users/mowenfeng/Downloads/lazy-captcha-master/Wjsz.Captcha/obj/Debug/net7.0/Wjsz.Captcha.pdb
+/Users/mowenfeng/Downloads/lazy-captcha-master/Wjsz.Captcha/obj/Debug/net7.0/ref/Wjsz.Captcha.dll
