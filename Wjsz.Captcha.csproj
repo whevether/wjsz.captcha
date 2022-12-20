@@ -9,6 +9,13 @@
     <AssemblyVersion>1.0.0</AssemblyVersion>
 	<Version>1.0.0</Version>
 	<RootNamespace>Wjsz.Captcha</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <LangVersion>10.0</LangVersion>
+    <PackageId>Wjsz.Captcha</PackageId>
+    <Company>Wjsz.Captcha</Company>
+    <Authors>Wjsz.Captcha</Authors>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Title>Wjsz.Captcha</Title>
   </PropertyGroup>
 
   <ItemGroup>

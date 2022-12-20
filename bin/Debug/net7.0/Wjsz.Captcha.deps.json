@@ -14,7 +14,7 @@
           "Microsoft.Extensions.Configuration.Binder": "7.0.1",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "7.0.0",
           "SixLabors.ImageSharp": "2.1.3",
-          "SixLabors.ImageSharp.Drawing": "1.0.0-beta14"
+          "SixLabors.ImageSharp.Drawing": "1.0.0-beta15"
         },
         "runtime": {
           "Wjsz.Captcha.dll": {}
@@ -120,7 +120,7 @@
         }
       },
       "Microsoft.NETCore.Platforms/5.0.0": {},
-      "SixLabors.Fonts/1.0.0-beta16": {
+      "SixLabors.Fonts/1.0.0-beta18": {
         "runtime": {
           "lib/netcoreapp3.1/SixLabors.Fonts.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -140,9 +140,9 @@
           }
         }
       },
-      "SixLabors.ImageSharp.Drawing/1.0.0-beta14": {
+      "SixLabors.ImageSharp.Drawing/1.0.0-beta15": {
         "dependencies": {
-          "SixLabors.Fonts": "1.0.0-beta16",
+          "SixLabors.Fonts": "1.0.0-beta18",
           "SixLabors.ImageSharp": "2.1.3"
         },
         "runtime": {
@@ -236,12 +236,12 @@
       "path": "microsoft.netcore.platforms/5.0.0",
       "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
     },
-    "SixLabors.Fonts/1.0.0-beta16": {
+    "SixLabors.Fonts/1.0.0-beta18": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nv2wE6mjaoLb2t+fpba3tdGftZJgYEC11uRPyGPFL3gt/WDsHfUVRqtDTUThIMo0RTt0iCckHSPp2Oc+WI3iWg==",
-      "path": "sixlabors.fonts/1.0.0-beta16",
-      "hashPath": "sixlabors.fonts.1.0.0-beta16.nupkg.sha512"
+      "sha512": "sha512-evykNmy/kEE9EAEKgZm3MNUYXuMHFfmcLUNPw7Ho5q7OI96GFkkIxBm+QaKOTPBKw+L0AjKOs+ArVg8P40Ac9g==",
+      "path": "sixlabors.fonts/1.0.0-beta18",
+      "hashPath": "sixlabors.fonts.1.0.0-beta18.nupkg.sha512"
     },
     "SixLabors.ImageSharp/2.1.3": {
       "type": "package",
@@ -250,12 +250,12 @@
       "path": "sixlabors.imagesharp/2.1.3",
       "hashPath": "sixlabors.imagesharp.2.1.3.nupkg.sha512"
     },
-    "SixLabors.ImageSharp.Drawing/1.0.0-beta14": {
+    "SixLabors.ImageSharp.Drawing/1.0.0-beta15": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2mFbk5s9iu8fWiWyhbMo8VwHst2cw8LACQe36Fn6hlXkUwCEkyGVvdcdtHPQru7ESSnziW47Lt7Jkoay55RBcQ==",
-      "path": "sixlabors.imagesharp.drawing/1.0.0-beta14",
-      "hashPath": "sixlabors.imagesharp.drawing.1.0.0-beta14.nupkg.sha512"
+      "sha512": "sha512-HMb/JNtNsSOr0lh71s5jD4Bv7sUwTxhGz2fOtuXcInQ4p9SB+1oEY3I6PrKXHpOCKaYArLD5r/4mA8t0dT/M5A==",
+      "path": "sixlabors.imagesharp.drawing/1.0.0-beta15",
+      "hashPath": "sixlabors.imagesharp.drawing.1.0.0-beta15.nupkg.sha512"
     },
     "System.Runtime.CompilerServices.Unsafe/5.0.0": {
       "type": "package",
