@@ -1,0 +1,9 @@
+
+*obj
+*Properties
+*bin
+*.vs
+*Logs
+*.vscode
+*.idea
+*Migrations
