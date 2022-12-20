@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65b2b4ab-2477-460f-8678-e2f6c38b435f" name="Changes" comment="" />
+    <list default="true" id="65b2b4ab-2477-460f-8678-e2f6c38b435f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wjsz.Captcha.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wjsz.Captcha.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Wjsz.Captcha.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Wjsz.Captcha.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +25,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
     "vue.rearranger.settings.migration": "true"
   }
@@ -33,6 +39,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671504042794</updated>
       <workItem from="1671504046453" duration="174000" />
+      <workItem from="1671504814677" duration="208000" />
     </task>
     <servers />
   </component>

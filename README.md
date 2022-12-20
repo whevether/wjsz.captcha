@@ -2,14 +2,8 @@
 
 ## 介绍
 
-仿[EasyCaptcha](https://gitee.com/ele-admin/EasyCaptcha)和[SimpleCaptcha](https://github.com/1992w/SimpleCaptcha),基于.Net Standard 2.0 的图形验证码模块。
-可运行在.Net Framework >= 4.6.1，Core >= 2.0 环境下。.Net Framework下使用，[请参照](#user-content-net-framwork下使用-)
->  v1.1.6版本开始支持.Net Standard 2.0，之前为.Net Standard 2.1，如果要在 .Net Framework中使用，请使用>=1.1.6版本。
-
- **滑动验证码请移步[lazy-slide-captcha](https://gitee.com/pojianbing/lazy-slide-captcha)。**   
-[码云地址](https://gitee.com/pojianbing/lazy-captcha)
-[Github 地址](https://github.com/pojianbing/LazyCaptcha)
-
+仿[EasyCaptcha](https://gitee.com/ele-admin/EasyCaptcha)和[SimpleCaptcha](https://github.com/1992w/SimpleCaptcha),基于.Net Standard 7.0 的图形验证码模块。
+可运行在.Net 7 环境下 [请参照](#user-content-net-framwork下使用-)
 ### 效果展示
 
 | CaptchaType           | 字体    | 静态图                                          | 动图                                            |
@@ -36,29 +30,18 @@
 | Ransom  | ![输入图片说明](Images/Font_Ransom.gif)  | Robot    | ![输入图片说明](Images/Font_Robot.gif)    |
 | Scandal | ![输入图片说明](Images/Font_Scandal.gif) |
 
-### 在线演示（已停止服务）
-
-```shell
-# 此次返回的是 uyfx
-http://wosperry.com.cn:8006/captcha?id=999
-
-# 更改参数为对应的ID和图形上的验证码uyfx，通过则返回true
-http://wosperry.com.cn:8006/captcha/validate?id=999&code=uyfx
-
-```
-
 ### 安装
 
-- [Package Manager](https://www.nuget.org/packages/Lazy.Captcha.Core)
+- [Package Manager](https://www.nuget.org/packages/Wjsz.Captcha)
 
 ```powershell
-Install-Package Lazy.Captcha.Core
+Install-Package Wjsz.Captcha
 ```
 
-- [.NET CLI](https://www.nuget.org/packages/Lazy.Captcha.Core)
+- [.NET CLI](https://www.nuget.org/packages/Wjsz.Captcha)
 
 ```powershell
-dotnet add package Lazy.Captcha.Core
+dotnet add package Wjsz.Captcha
 ```
 
 ### 使用说明
@@ -317,13 +300,11 @@ builder.Services.AddCaptcha(builder.Configuration, options =>
 });
 ```
 
-### .Net Framework下使用 <a id="framework"></a> 
-新建mvc项目，.Net Framework选择4.6.1。
 
 #### 1. Nuget安装
-先安装SixLabors.ImageSharp.Drawing  **1.0.0-beta14**
+先安装SixLabors.ImageSharp.Drawing  **1.0.0-beta15**
 
-再安装Lazy.Captcha.Core **1.1.6**
+再安装Wjsz.Captcha **1.0.0**
 
 #### 2. Global.asax增加
 ``` c#
@@ -390,33 +371,8 @@ public class CaptchaResponse
 }
 ```
 
-具体示例请参照 [Sample.MvcFramework](Sample.MvcFramework)项目。
-
 ### 版本历史
 
-#### v1.1.6
--  新增Framework支持
+#### v1.0.0
 
-#### v1.1.5
--  修复校验接口code传入null返回为true的bug
-
-#### v1.1.4
--  优化干扰线显示，多条时适当分散
--  增加前景色配置ForegroundColors
--  优化部分代码
-
-#### v1.1.3
--  ImageSharp升级到2.1.0
-
-#### v1.1.2
-
-- 改进DefaultCaptcha以方便自定义验证码。
-
-#### v1.1.1
-
-- 多次验证实现
-
-#### v1.1.0
-
-- 新增 FrameDelay 参数，控制每帧延迟，Animation = true 时有效。
-- BackgroundColor 参数支持配置文件设置。
+- 初次提交
