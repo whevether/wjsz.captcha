@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b2b4ab-2477-460f-8678-e2f6c38b435f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wjsz.Captcha.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wjsz.Captcha.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wjsz.Captcha.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Wjsz.Captcha.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/Wjsz.Captcha.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/Wjsz.Captcha.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/Wjsz.Captcha.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/Wjsz.Captcha.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/Wjsz.Captcha.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/Wjsz.Captcha.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/Wjsz.Captcha.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/Wjsz.Captcha.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/Wjsz.Captcha.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/Wjsz.Captcha.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/Wjsz.Captcha.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/Wjsz.Captcha.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/Wjsz.Captcha.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/Wjsz.Captcha.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,16 +17,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/Users/mowenfeng/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache",
+      "/Users/mowenfeng/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache",
+      "/Users/mowenfeng/.local/share/Symbols/src"
+    ]
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,6 +46,7 @@
       <workItem from="1671504814677" duration="208000" />
       <workItem from="1671505028188" duration="626000" />
       <workItem from="1671506745767" duration="678000" />
+      <workItem from="1678157172003" duration="92000" />
     </task>
     <servers />
   </component>
