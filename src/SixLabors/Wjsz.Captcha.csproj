@@ -1,20 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <Description>仿EasyCaptcha和SimpleCaptcha,基于.Net 7.0的图形验证码模块。</Description>
+    <TargetFramework>net8.0</TargetFramework>
+    <Description>仿EasyCaptcha和SimpleCaptcha,基于.Net 8.0的图形验证码模块。</Description>
     <PackageProjectUrl>https://github.com/whevether/wjsz-captcha</PackageProjectUrl>
     <RepositoryUrl>https://github.com/whevether/wjsz-captcha</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
-	<Version>1.0.0</Version>
+    <AssemblyVersion>2.0.0</AssemblyVersion>
+	<Version>2.0.0</Version>
 	<RootNamespace>Wjsz.SixLabors.Captcha</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <LangVersion>10.0</LangVersion>
     <PackageId>Wjsz.SixLabors.Captcha</PackageId>
     <Company>Wjsz.SixLabors.Captcha</Company>
     <Authors>Wjsz.SixLabors.Captcha</Authors>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>2.0.0</PackageVersion>
     <Title>Wjsz.SixLabors.Captcha</Title>
   </PropertyGroup>
 
@@ -57,13 +57,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="7.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="7.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="7.0.4" />
-    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="7.0.0" /> 
-    <PackageReference Include="SixLabors.ImageSharp" Version="3.0.1" />
-    <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta15" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" /> 
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.0.2" />
+    <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="2.0.1" />
   </ItemGroup>
 
   <ItemGroup>

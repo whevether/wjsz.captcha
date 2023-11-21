@@ -4,16 +4,12 @@ using SixLabors.Fonts;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Drawing;
 using SixLabors.ImageSharp.Drawing.Processing;
-using SixLabors.ImageSharp.Formats.Gif;
-using SixLabors.ImageSharp.Formats.Png;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp.Processing;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Wjsz.Captcha.Generator.Image
 {
@@ -232,7 +228,7 @@ namespace Wjsz.Captcha.Generator.Image
             var charWidths = new List<float>();
             foreach (var s in text)
             {
-                var charWidth = TextMeasurer.Measure(s.ToString(), new TextOptions(font)).Width;
+                var charWidth = TextMeasurer.MeasureAdvance(s.ToString(), new TextOptions(font)).Width;
                 charWidths.Add(charWidth);
             }
 
@@ -249,7 +245,7 @@ namespace Wjsz.Captcha.Generator.Image
                 var padding = (wrapperWidth - charWidths[i]) / 2;
                 var textX = currentX + padding;
 
-                var fontHeight = (int)TextMeasurer.Measure(text[i].ToString(), new TextOptions(font)).Height;
+                var fontHeight = (int)TextMeasurer.MeasureAdvance(text[i].ToString(), new TextOptions(font)).Height;
                 int textY = (height - fontHeight) / 2 + 3;  // 文字的纵坐标
 
                 result.Add(new PointF(textX, textY));
