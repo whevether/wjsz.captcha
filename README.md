@@ -2,8 +2,8 @@
 
 ## 介绍
 
-仿[EasyCaptcha](https://gitee.com/ele-admin/EasyCaptcha)和[SimpleCaptcha](https://github.com/1992w/SimpleCaptcha),基于.Net 8.0 的图形验证码模块。
-可运行在.Net 8 环境下
+仿[EasyCaptcha](https://gitee.com/ele-admin/EasyCaptcha)和[SimpleCaptcha](https://github.com/1992w/SimpleCaptcha),基于.Net 9.0 的图形验证码模块。
+可运行在.Net 9 环境下
 ### 效果展示
 
 | CaptchaType           | 字体    | 静态图                                          | 动图                                            |

@@ -2,19 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
-    <Description>仿EasyCaptcha和SimpleCaptcha,基于.Net 8.0的图形验证码模块。</Description>
+    <Description>仿EasyCaptcha和SimpleCaptcha,基于.Net 9.0的图形验证码模块。</Description>
     <PackageProjectUrl>https://github.com/whevether/wjsz-captcha</PackageProjectUrl>
     <RepositoryUrl>https://github.com/whevether/wjsz-captcha</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <AssemblyVersion>2.0.0</AssemblyVersion>
-	<Version>2.0.0</Version>
+    <AssemblyVersion>3.0.0</AssemblyVersion>
+	<Version>3.0.0</Version>
 	<RootNamespace>Wjsz.SixLabors.Captcha</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <LangVersion>13.0</LangVersion>
     <PackageId>Wjsz.SixLabors.Captcha</PackageId>
     <Company>Wjsz.SixLabors.Captcha</Company>
     <Authors>Wjsz.SixLabors.Captcha</Authors>
-    <PackageVersion>2.0.0</PackageVersion>
+    <PackageVersion>3.0.0</PackageVersion>
     <Title>Wjsz.SixLabors.Captcha</Title>
   </PropertyGroup>
 

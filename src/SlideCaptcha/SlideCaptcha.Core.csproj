@@ -1,13 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net9.0</TargetFramework>
-		<Description>基于.Net 8.0的滑动验证码模块。从1.0.0起绘图由ImageSharp调整为SkiaSharp。</Description>
-		<PackageProjectUrl>https://github.com/whevether/wjsz.captcha.git</PackageProjectUrl>
-		<RepositoryType>git</RepositoryType>
-		<AssemblyVersion>1.0.0</AssemblyVersion>
-		<Version>1.0.0</Version>
-	</PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Description>仿EasyCaptcha和SimpleCaptcha,基于.Net 9.0的图形验证码模块。</Description>
+    <PackageProjectUrl>https://github.com/whevether/wjsz-captcha</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/whevether/wjsz-captcha</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <AssemblyVersion>3.0.0</AssemblyVersion>
+	<Version>3.0.0</Version>
+	<RootNamespace>Wjsz.SlideCaptcha</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <LangVersion>13.0</LangVersion>
+    <PackageId>Wjsz.SlideCaptcha</PackageId>
+    <Company>Wjsz.SlideCaptcha</Company>
+    <Authors>Wjsz.SlideCaptcha</Authors>
+    <PackageVersion>3.0.0</PackageVersion>
+    <Title>Wjsz.SlideCaptcha</Title>
+  </PropertyGroup>
 
 	<ItemGroup>
 	  <None Remove="templates\1\hole.png" />
