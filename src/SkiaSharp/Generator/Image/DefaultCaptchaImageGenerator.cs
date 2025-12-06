@@ -268,7 +268,7 @@ namespace Wjsz.Captcha.Core.Generator.Image
         /// <param name="width">验证码宽度</param>
         /// <param name="height">验证码高度</param>
         /// <param name="text">要绘制的文本</param>
-        /// <param name="paint">画笔</param>
+        /// <param name="font">画笔</param>
         /// <returns>返回每个字符的位置</returns>
         public virtual List<PointF> MeasureTextPositions(int width, int height, string text, SKTypeface font, float fontSize)
         {

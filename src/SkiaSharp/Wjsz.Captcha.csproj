@@ -1,19 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <Description>仿EasyCaptcha和SimpleCaptcha,基于.Net 9.0的图形验证码模块。</Description>
     <PackageProjectUrl>https://github.com/whevether/wjsz-captcha</PackageProjectUrl>
     <RepositoryUrl>https://github.com/whevether/wjsz-captcha</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <AssemblyVersion>3.0.0</AssemblyVersion>
-	<Version>3.0.0</Version>
+    <AssemblyVersion>4.0.0</AssemblyVersion>
+	<Version>4.0.0</Version>
 	<RootNamespace>Wjsz.SkiaSharp.Captcha</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <LangVersion>13.0</LangVersion>
     <PackageId>Wjsz.SkiaSharp.Captcha</PackageId>
     <Company>Wjsz.SkiaSharp.Captcha</Company>
     <Authors>Wjsz.SkiaSharp.Captcha</Authors>
-    <PackageVersion>3.0.0</PackageVersion>
+    <PackageVersion>4.0.0</PackageVersion>
     <Title>Wjsz.SkiaSharp.Captcha</Title>
   </PropertyGroup>
 
@@ -56,12 +56,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="9.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="9.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="9.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="9.0.0" />
-    <PackageReference Include="SkiaSharp" Version="2.88.9" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="10.0.0" />
+    <PackageReference Include="SkiaSharp" Version="3.119.1" />
   </ItemGroup>
 
   <ItemGroup>
