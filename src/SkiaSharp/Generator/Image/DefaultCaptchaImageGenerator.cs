@@ -1,4 +1,4 @@
-﻿using Wjsz.Captcha.Core.Generator.Image.Gif;
+using Wjsz.Captcha.Core.Generator.Image.Gif;
 using Wjsz.Captcha.Core.Generator.Image.Models;
 using Wjsz.Captcha.Core.Generator.Image.Option;
 using SkiaSharp;
@@ -237,15 +237,13 @@ namespace Wjsz.Captcha.Core.Generator.Image
         {
             graphicDescriptions.ForEach(gd =>
             {
+                using (var font = new SKFont(gd.Font, gd.FontSize) { Embolden = gd.TextBold })
                 using (var paint = new SKPaint())
                 {
                     paint.StrokeWidth = 1;
-                    paint.TextSize = gd.FontSize;
                     paint.IsAntialias = true;
-                    paint.Typeface = gd.Font;
                     paint.Color = gd.Color.WithAlpha((byte)(255 * gd.BlendPercentage));
-                    paint.FakeBoldText = gd.TextBold;
-                    canvas.DrawText(gd.Text, gd.Location.X, gd.Location.Y, paint);
+                    canvas.DrawText(gd.Text, gd.Location.X, gd.Location.Y, SKTextAlign.Left, font, paint);
                 }
             });
         }
@@ -272,13 +270,8 @@ namespace Wjsz.Captcha.Core.Generator.Image
         /// <returns>返回每个字符的位置</returns>
         public virtual List<PointF> MeasureTextPositions(int width, int height, string text, SKTypeface font, float fontSize)
         {
-            using (var paint = new SKPaint())
+            using (var skFont = new SKFont(font, fontSize))
             {
-                paint.StrokeWidth = 1;
-                paint.TextSize = fontSize;
-                paint.IsAntialias = true;
-                paint.Typeface = font;
-
                 var result = new List<PointF>();
                 if (string.IsNullOrWhiteSpace(text)) return result;
 
@@ -286,7 +279,7 @@ namespace Wjsz.Captcha.Core.Generator.Image
                 var charWidths = new List<float>();
                 foreach (var s in text)
                 {
-                    var charWidth = paint.MeasureText(s.ToString());
+                    var charWidth = skFont.MeasureText(s.ToString());
                     charWidths.Add(charWidth);
                 }
 
@@ -296,8 +289,7 @@ namespace Wjsz.Captcha.Core.Generator.Image
                 var charXs = new List<float>();
 
                 // 计算字体高度（取最高的）
-                SKRect textBounds = new SKRect();
-                paint.MeasureText(text, ref textBounds);
+                skFont.MeasureText(text, out var textBounds);
                 var fontHeight = (int)textBounds.Height;
 
                 for (var i = 0; i < text.Count(); i++)
